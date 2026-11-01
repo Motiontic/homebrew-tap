@@ -1,29 +1,29 @@
-# Written by scripts/release.sh for uno 0.1.1; do not edit by hand.
+# Written by scripts/release.sh for uno 0.1.2; do not edit by hand.
 class Uno < Formula
   desc "Uno, the unocode coding agent for the terminal"
   homepage "https://unocode.motiontic.com"
-  version "0.1.1"
+  version "0.1.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.1/uno-aarch64-apple-darwin"
-      sha256 "bebfec38ca3819608eb3d47807d3098260a0062dd806d0abfa87e2fefd08055b"
+      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.2/uno-aarch64-apple-darwin"
+      sha256 "f80994fbd55edc0abf576d831fefe80a53486dc56c8bc7d3a8e6bad95dfbe34c"
     end
     on_intel do
-      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.1/uno-x86_64-apple-darwin"
-      sha256 "0881007e85cd7f5e21d25638e1149c6b4116217f056709cf9ffc875b3179ee52"
+      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.2/uno-x86_64-apple-darwin"
+      sha256 "0a5494f2bbe9be50f3cb4026bd11daa9af7415775cdf53d7c847f823f9a185a9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.1/uno-aarch64-unknown-linux-musl"
-      sha256 "e13fc45a5268647b34c22c3042475860c69c66356512465f1479ad1346a8f974"
+      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.2/uno-aarch64-unknown-linux-musl"
+      sha256 "53d35c6aa79cd8cbacdf4f9510547bff73e5cb675fb0a98bac9ec86e3b0e0bc4"
     end
     on_intel do
-      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.1/uno-x86_64-unknown-linux-musl"
-      sha256 "e908c9d6a899196e773a1dbbc2819f8d409d675e45b801dfc6ad6a9796d6426e"
+      url "https://github.com/motiontic/unocode-releases/releases/download/v0.1.2/uno-x86_64-unknown-linux-musl"
+      sha256 "bcfbcb377902c2b5709ab44bbee734fd72f6129c264d019982e6bf056bf7be81"
     end
   end
 
